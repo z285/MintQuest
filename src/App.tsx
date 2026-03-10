@@ -179,7 +179,7 @@ const MintButton = () => {
           color: "#6b7280",
         }}
       >
-        v1.0.0
+        v1.0.1
       </span>
     </div>
   );
@@ -194,6 +194,7 @@ function App() {
         chain: "solana:mainnet",
         appIdentity: {
           name: "Time Stamp NFT",
+          uri: "https://solana-nft-app.pages.dev"
         },
         onWalletNotFound: async () => {
           console.log("No mobile wallet installed");
